@@ -1,0 +1,10 @@
+.logo-container a {
+  height: 30px;
+}
+.logo-text {
+  display: inline;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
