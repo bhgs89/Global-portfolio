@@ -1,5 +1,6 @@
 import React from 'react';
 import '../css/Menu.css';
+import { ButtonToolbar, Button } from 'react-bootstrap';
 
 class Menu extends React.Component {
   render() {
@@ -10,10 +11,10 @@ class Menu extends React.Component {
             <img src="/images/logo.png" alt="logo" />
             <p className="logo-text">Global</p>
           </a>
+          <ButtonToolbar>
+            <Button>Default</Button>
+          </ButtonToolbar>
         </div>
-        <ul>
-          <li></li>
-        </ul>
       </div>
     );
   }
