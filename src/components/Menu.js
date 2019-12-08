@@ -1,6 +1,6 @@
 import React from 'react';
+import MenuIcon from '@material-ui/icons/Menu';
 import '../css/Menu.css';
-import { MenuIcon } from '@material-ui/icons/Menu';
 
 class Menu extends React.Component {
   render() {
@@ -13,7 +13,7 @@ class Menu extends React.Component {
           </a>
         </div>
         <div className="menu-bar">
-          <MenuIcon />
+          <MenuIcon style={{ color: 'white' }} />
         </div>
       </div>
     );
