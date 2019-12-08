@@ -1,19 +1,19 @@
 import React from 'react';
 import '../css/Menu.css';
-import { ButtonToolbar, Button } from 'react-bootstrap';
+import { MenuIcon } from '@material-ui/icons/Menu';
 
 class Menu extends React.Component {
   render() {
     return (
-      <div>
+      <div className="container">
         <div className="logo-container">
           <a href="#">
             <img src="/images/logo.png" alt="logo" />
             <p className="logo-text">Global</p>
           </a>
-          <ButtonToolbar>
-            <Button>Default</Button>
-          </ButtonToolbar>
+        </div>
+        <div className="menu-bar">
+          <MenuIcon />
         </div>
       </div>
     );
