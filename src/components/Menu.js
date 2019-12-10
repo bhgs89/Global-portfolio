@@ -5,11 +5,11 @@ import '../css/Menu.css';
 class Menu extends React.Component {
   render() {
     return (
-      <div className="container">
+      <div className="menu-container">
         <div className="logo-container">
           <a href="#">
             <img src="/images/logo.png" alt="logo" />
-            <p className="logo-text">Global</p>
+            <p>Global</p>
           </a>
         </div>
         <div className="menu-bar">
