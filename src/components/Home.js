@@ -4,10 +4,17 @@ import '../css/Home.css';
 class Home extends React.Component {
   render() {
     return (
-      <div className="home-section">
-        <div className="home-main">
-          <h1>Your next interactive experience</h1>
-          <button>Hire us</button>
+      <section className="home-section">
+        <div className="container home-main">
+          <div className="row">
+            <div className="col-md-5">
+              <h1>Your next interactive experience</h1>
+              <button>Hire us</button>
+            </div>
+            <div className="col-md-7">
+              <img src="/images/introduction-visual.png" alt="" />
+            </div>
+          </div>
         </div>
         <div className="container">
           <div className="row">
@@ -31,7 +38,7 @@ class Home extends React.Component {
             </div>
           </div>
         </div>
-      </div>
+      </section>
     );
   }
 }

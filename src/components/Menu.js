@@ -13,7 +13,13 @@ class Menu extends React.Component {
           </a>
         </div>
         <div className="menu-bar">
-          <MenuIcon style={{ color: 'white' }} />
+          <MenuIcon
+            style={{
+              color: 'white',
+              width: '30px',
+              height: '30px'
+            }}
+          />
         </div>
       </div>
     );

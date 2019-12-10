@@ -1,9 +1,7 @@
 .home-section {
   color: white;
 }
-.home-main {
-  background-image: url('/images/introduction-visual.png');
-}
+
 .home-main h1 {
   font-size: 68px;
   font-weight: 900;
