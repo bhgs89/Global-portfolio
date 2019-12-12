@@ -2,10 +2,18 @@ import React from 'react';
 import { makeStyles } from '@material-ui/styles';
 
 /*
- * Use makeStyles in const Component
+ * Use makeStyles in const Nav Component
  */
 const useStyles = makeStyles({
   root: {
+    position: 'absolute',
+    width: '100px',
+    height: '100%',
+    padding: 0,
+    margin: 0,
+    display: 'flex',
+    flexDirection: 'column',
+    justifyContent: 'center',
     color: 'white',
     listStyle: 'none'
   }

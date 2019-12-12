@@ -4,7 +4,9 @@
   background-color: #0c0c0c;
 }
 .app-body {
+  position: relative;
   width: 1440px;
   max-width: 90%;
+  height: 100%;
   margin: 0 auto;
 }
