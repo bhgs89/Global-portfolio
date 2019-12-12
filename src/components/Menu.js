@@ -6,12 +6,13 @@ class Menu extends React.Component {
   render() {
     return (
       <div className="menu-container">
-        <div className="logo-container">
-          <a href="#">
-            <img src="/images/logo.png" alt="logo" />
-            <p>Global</p>
-          </a>
-        </div>
+        <a className="logo-container" href="#">
+          <img src="/images/logo.png" alt="logo" />
+          <p>Global</p>
+        </a>
+
+        <button className="hire-button">Hire us</button>
+
         <div className="menu-bar">
           <MenuIcon
             style={{

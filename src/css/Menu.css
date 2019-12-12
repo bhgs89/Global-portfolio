@@ -1,11 +1,12 @@
 .menu-container {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
-  padding: 20px 0;
+  align-items: center;
+  height: 70px;
 }
-.logo-container a {
-  height: 30px;
+.logo-container {
+  display: flex;
+  align-items: center;
 }
 .logo-container img {
   display: inline-block;
@@ -17,4 +18,18 @@
   font-size: 16px;
   font-weight: 700;
   text-transform: uppercase;
+  margin: 0;
+}
+.hire-button {
+  border: none;
+  line-height: 30px;
+  background-color: #0f33ff;
+  color: white;
+  font-weight: 700;
+  font-size: 14px;
+  text-transform: uppercase;
+  padding: 0 20px;
+}
+.menu-bar {
+  margin-right: 10px;
 }
